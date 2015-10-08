@@ -1,8 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Amaranth);
+
 * {
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Amaranth', sans-serif;
 }
+hr {
 
+    height: 2px;
+    background-color:#555;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
 #content {
 	height: 650px;
 	width: 100%;
