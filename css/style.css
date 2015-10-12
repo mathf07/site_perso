@@ -72,7 +72,7 @@ hr {
 	position: absolute;
 }
 .fond-ecran {
-	background: url("../img/paper_ball-compressor.jpg") 50% 0 no-repeat fixed; 
+	background: url("../img/paper-ball-compressor.jpg") 50% 0 no-repeat fixed; 
 	background-size: 100%;
 	width: 100%; 
 	height: 300px;
