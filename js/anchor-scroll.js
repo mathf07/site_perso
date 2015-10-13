@@ -1,9 +1,13 @@
-$('a[href^=#]').on("click",function(){
-    var t= $(this.hash);
-    var t=t.length&&t||$('[name='+this.hash.slice(1)+']');
-    if(t.length){
-        var tOffset=t.offset().top;
-        $('html,body').animate({scrollTop:tOffset-20},'slow');
-        return false;
+$('a[href^="#"]').on('click', function(event) {
+
+    var target = $( $(this).attr('href') );
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
     }
+
 });
+
