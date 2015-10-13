@@ -10,6 +10,10 @@ html {
 	padding: 0;
 }
 
+a, a:visited, a:focus, a:active, a:hover{
+    outline:0 none !important;
+}
+
 hr {
 
     height: 1px;
@@ -20,6 +24,7 @@ hr {
     margin-bottom: 10px;
 
 }
+
 #content1 {
 	height: 650px;
 	width: 100%;
