@@ -9,10 +9,13 @@ function parallax () {
 
 function opacity () {
 	var navbar = document.getElementById('navbar');
+	var navLi = document.getElementById('navMain');
 	if (window.pageYOffset > 500) {
 		navbar.classList.add("opaque");
+		navLi.classList.add("opaque")
 	} else {
 		navbar.classList.remove("opaque");
+		navLi.classList.remove("opaque")
 	}
 }
 

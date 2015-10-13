@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Untitled</title>
-        <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+        <title>Hello</title>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="author" href="humans.txt">
@@ -14,14 +14,14 @@
     <div id ="navbar" class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                </button>
+                <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </a>
                 <a class="navbar-brand" href="#">Mon site perso</a>
             </div>
-            <div class="collapse navbar-collapse" id="navMain">
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="#">Accueil</a></li>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav pull-right" id="navMain">
+                    <!-- <li><a href="#">Accueil</a></ li> -->
                     <li><a href="#">Mes compétences</a></li>
                     <li><a href="#">Mes services</a></li>
                     <li><a href="#">Contactez moi</a></li> 
@@ -29,7 +29,6 @@
             </div>
         </div>
     </div>
-    <!-- <img id="image" src="img/getting-ready1.jpg"/> -->
     <div class="fond-ecran-top image" data-speed="2" data-type="background"></div>
     <div id="content1">
         <hr><h1 class= "text-center">Mes compétences</h1><hr>
@@ -64,7 +63,8 @@
             <a href="#"><img src="img/pinterest.png" alt="pinterest" title="pinterest" class="logos"/></a>
         </div>
     </footer>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
